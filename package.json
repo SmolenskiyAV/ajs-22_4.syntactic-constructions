@@ -1,13 +1,13 @@
 {
   "name": "ajs",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "lint": "eslint .",
-    "test": "jest",
+    "test": "jest --coverage",
     "coverage": "jest --coverage",
     "preshow:coverage": "npm run coverage",
     "show:coverage": "live-server coverage/lcov-report",
@@ -37,5 +37,13 @@
   },
   "dependencies": {
     "core-js": "^3.6.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmolenskiyAV/ajs-22_4.syntactic-constructions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SmolenskiyAV/ajs-22_4.syntactic-constructions/issues"
+  },
+  "homepage": "https://github.com/SmolenskiyAV/ajs-22_4.syntactic-constructions#readme"
 }
